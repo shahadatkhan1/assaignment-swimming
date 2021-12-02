@@ -1,0 +1,373 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.full-menu {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #000;
+	font-size: 22px;
+	padding: 0 25px;
+	line-height: 130px;
+	display: block;
+	transition: 0.4s;
+}
+
+.menu ul li a:hover {
+	background: rgb(25, 94, 210);
+	background: linear-gradient(0deg, rgba(25, 94, 210, 1) 0%, rgba(174, 92, 252, 1) 100%);
+	color: #fff;
+}
+
+.logo {
+	padding: 38px 0;
+	margin-left: 70px;
+
+}
+
+.banner img {
+	width: 100%;
+	display: block;
+}
+
+/* service section state */
+
+.services .serve-div {
+	max-width: 315px;
+	margin-left: 1.2%;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	padding: 30px 75px 30px 30px;
+	margin-top: -70px;
+
+}
+
+.services .serve-div h2 {
+	font-size: 51px;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+
+.services .serve-div p {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.services .serve-div i {
+	font-size: 30px;
+	position: absolute;
+	bottom: 30px;
+	right: 25px;
+}
+
+.services .register {
+	background: linear-gradient(#ffaf00, #ff8615);
+}
+
+.services .franchise {
+	background: linear-gradient(#ba5cff, #155ed1);
+}
+
+.services .what-laveal {
+	background: linear-gradient(#ff3050, #ff1c98);
+}
+
+.services .locate {
+	background: linear-gradient(#ff14e7, #b61fe0);
+}
+
+/* service section End */
+
+/* school section State */
+
+.school-section{
+	margin-top: 25px;
+	display: inline-flex;
+	
+}
+
+.school-section .text-section{
+	width: 48%;
+	margin: 1%;
+	height: 500px;
+	background: gainsboro;
+	padding: 30px;
+	
+}
+.school-section .img-section{
+	width: 48%;
+	margin: 1%;
+	height: 500px;
+}
+
+.school-section h2{
+	font-size: 51px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-bottom: 40px;	
+}
+.school-section p{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	text-align: justify;	
+}
+.school-section button{
+	margin: 20px;
+	width: 200px;
+	height: 65px;
+	padding: 15px;
+	font-weight: 600;
+	font-size: 20px;
+	color:#fff;
+	background:linear-gradient( to right, #ff8b00, #ff3050);
+	border: none;
+	cursor: pointer;	
+}
+.swim-section{
+	margin-top: 25px;
+	display: inline-flex;
+}
+.swim-section .img-section{
+	width: 48%;
+	margin: 1%;
+	height: 500px;
+}
+.swim-section .text-section{
+	width: 48%;
+	margin: 1%;
+	height: 500px;
+	background: gainsboro;
+	padding: 30px;
+}
+.swim-section h2{
+	font-size: 51px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-bottom: 40px;
+}
+swim-section p{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	text-align: justify;
+}
+.swim-section button{
+	margin: 20px;
+	width: 200px;
+	height: 65px;
+	padding: 15px;
+	color:#fff;
+	font-weight: 600;
+	font-size: 20px;
+	background:linear-gradient(to right, #ff8b00, #ff3050);
+	border: none;
+	cursor: pointer;	  	  
+}
+
+/* school section End */
+
+/* our swimming section State */
+
+.our-summing{
+	background: url('image/swimming-3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+
+}
+.our-summing div{
+	width: 650px;
+	margin: 20px;
+	margin-left: 50px;
+	padding: 50px;
+	height: 100%; 
+	background:linear-gradient( to bottom, #ff3351, #f6058e);
+	opacity: .9;
+	color: #fff;
+}
+.our-summing h2{
+	margin-top: 20px;
+	font-size: 50px;
+	font-weight: 600;
+	
+}
+.our-summing p{
+	font-size: 22px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.our-summing button{
+	margin: 20px;
+	width: 200px;
+	height: 65px;
+	padding: 15px;
+	color:#333;
+	font-weight: 600;
+	font-size: 18px;
+	background:#fff;
+	border: none;
+	cursor: pointer;
+}
+
+/* our swimming section End */
+
+ /* Our even section State */
+
+
+.our-event{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-left:0px;
+}
+
+.our-event .our-event-text{
+	margin: 20px;
+	padding: 50px;
+	background:linear-gradient( to bottom, #ff7f00, #ffbb18);
+	width: 100%;
+	color: #fff;
+
+}
+.our-event .our-event-text h2{
+	font-size: 40px;	
+}
+.our-event .our-event-text ul li{
+	list-style: none;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.our-event .our-event-logo{
+	margin: 20px;
+	width: 100%;
+	margin-right:0px;
+}
+/* Our even section End */
+
+/* All participent State */
+
+.all-participent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 35px 40px;
+	
+}
+.all-participent .anne,
+.all-participent .sam,
+.all-participent .peter,
+.all-participent .jane{
+	display: block;
+	background: #f3f3f3;
+	color: #333;
+	font-size: 20px;
+	width: 100%;
+	height: 415px;
+	margin: 20px;
+	margin-top: 75px;
+	text-align: center;
+	
+}
+.all-participent img{
+	margin-top:-75px;	
+}
+.all-participent p{
+	margin: 35px;
+	text-align: justify;
+}
+.all-participent h5{
+	margin: 15px;
+	color:#ff7f00;
+	font-size: 30px;	
+}
+/* All participent End */
+
+/* Contacts Section Start */
+
+.contacts-section{
+display: flex;
+text-align: left;
+justify-content: space-between;
+
+}
+.contacts{
+	background-color: #0080cb;
+	background-repeat: no-repeat;
+	color:#fff;
+	width: 50%;
+	margin-left:20px;
+	padding: 30px;
+}
+.contacts h2{
+	font-size:50px;
+	margin-top: 30px;		
+}
+.contacts p{
+	font-size: 20px;
+	margin-top: 10px;	
+}
+.contacts h3{
+	font-size: 20px;
+	margin-top: 10px;	
+}
+
+.fa-instagram-square{
+	font-size: 40px;
+	padding: 2px;
+	margin-top:15px;	
+}
+.fa-facebook-f{
+	font-size: 40px;
+	padding: 2px;
+	margin-top:20px;
+}
+.fa-twitter{
+	font-size: 40px;
+	padding: 2px;
+	margin-top:20px;
+}
+.fa-whatsapp{
+	font-size: 40px;
+	padding: 2px;
+	margin-top:20px;
+}
+/* Contacts Section End */
+
+/* Footer section state */
+
+.footer-section{
+	margin-top: 50px;
+	text-align: center;
+	padding: 30px;	
+}
+/* Footer section End */
